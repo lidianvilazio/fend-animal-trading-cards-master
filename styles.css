@@ -1,0 +1,37 @@
+/* add your CSS here */
+body{
+    padding: 5%;
+    border: 1px solid silver;
+    width: 300px;
+    box-shadow: 5px 5px 0 #cccccc;
+    -webkit-box-shadow: 5px 5px 0 #cccccc;
+    -moz-box-shadow: 5px 5px 0  #cccccc;
+
+}
+#title{
+    font-size: 200%;
+}
+p, .list, .info{
+    padding: 2%;
+    margin: 0px;
+}
+.fact{
+    font-style: italic;
+}
+
+.label{
+    font-weight: bold;
+}
+.list{
+    list-style: none;
+
+}
+.image{
+    float: inherit;
+    width: 100%;
+    border: thin solid;
+}
+
+.image, .info{
+    border: 1px solid  silver;
+}
