@@ -15,6 +15,7 @@
 
 p, .list, .info, .image{
     padding: 2%;
+    box-sizing: border-box;
 }
 
 .fact{
@@ -30,10 +31,11 @@ p, .list, .info, .image{
 
 }
 
-.image, .info{
-    float: inherit;
-    box-sizing: border-box;
-    border: thin solid;
-    background-position: center;
+.image{
+    width:300px;
+    height:200px;
+}
+
+.info, .image{
     border: 1px  solid #c0c0c0;
 }
