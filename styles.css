@@ -1,20 +1,22 @@
 /* add your CSS here */
-body{
+#card{
     padding: 5%;
-    border: 1px solid silver;
+    border: 1px solid  #c0c0c0;
     width: 300px;
-    box-shadow: 5px 5px 0 #cccccc;
-    -webkit-box-shadow: 5px 5px 0 #cccccc;
-    -moz-box-shadow: 5px 5px 0  #cccccc;
+    box-shadow: 5px 5px 0  #ccc;
+    -webkit-box-shadow: 5px 5px 0 #ccc;
+    -moz-box-shadow: 5px 5px 0  #ccc;
 
 }
+
 #title{
     font-size: 200%;
 }
-p, .list, .info{
+
+p, .list, .info, .image{
     padding: 2%;
-    margin: 0px;
 }
+
 .fact{
     font-style: italic;
 }
@@ -22,16 +24,16 @@ p, .list, .info{
 .label{
     font-weight: bold;
 }
+
 .list{
     list-style: none;
 
 }
-.image{
-    float: inherit;
-    width: 100%;
-    border: thin solid;
-}
 
 .image, .info{
-    border: 1px solid  silver;
+    float: inherit;
+    box-sizing: border-box;
+    border: thin solid;
+    background-position: center;
+    border: 1px  solid #c0c0c0;
 }
