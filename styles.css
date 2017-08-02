@@ -14,8 +14,7 @@
 
 p,
 .list,
-.info,
-.image {
+.info {
     padding: 2px;
     box-sizing: border-box;
 }
@@ -34,6 +33,7 @@ p,
 
 .image {
     width: 300px;
+    box-sizing: border-box;
 }
 
 .info,
